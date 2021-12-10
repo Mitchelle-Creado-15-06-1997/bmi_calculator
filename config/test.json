@@ -1,0 +1,16 @@
+{
+    "app": {
+        "env": "test"
+    },
+    "db": {
+        "mysql": {
+            "name": "dev",
+            "host": "localhost",
+            "user": "root",
+            "password": "abc12345",
+            "database": "bmi",
+            "multipleStatements": true,
+            "connectionLimit": 200
+        }
+    }
+}
